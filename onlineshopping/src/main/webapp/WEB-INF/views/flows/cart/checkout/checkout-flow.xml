@@ -5,7 +5,7 @@
                           http://www.springframework.org/schema/webflow/spring-webflow-2.0.xsd">
 
 
-	<var name="shipping" class="net.kzn.shoppingbackend.dto.Address" />
+	<var name="shipping" class="net.niit.shoppingbackend.dto.Address" />
 
 	<on-start>
 		<evaluate expression="checkoutHandler.init(currentUser.name)"

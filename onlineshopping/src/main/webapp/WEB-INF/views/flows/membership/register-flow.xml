@@ -5,8 +5,8 @@
                           http://www.springframework.org/schema/webflow/spring-webflow-2.0.xsd">
 
 
-	<var name="user" class="net.kzn.shoppingbackend.dto.User" />
-	<var name="billing" class="net.kzn.shoppingbackend.dto.Address" />
+	<var name="user" class="net.niit.shoppingbackend.dto.User" />
+	<var name="billing" class="net.niit.shoppingbackend.dto.Address" />
 
 	<on-start>
 		<evaluate expression="registerHandler.init()" result="flowScope.registerModel" />
